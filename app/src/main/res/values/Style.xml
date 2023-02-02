@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomBaseButton" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">#8E8E8E</item>
+        <item name="android:insetLeft">10dp</item>
+        <item name="android:insetTop">10dp</item>
+        <item name="android:insetBottom">10dp</item>
+        <item name="android:insetRight">10dp</item>
+        <item name="cornerRadius">200dp</item>
+    </style>
+
+
+    <style name="CustomBaseButton.CustomBlackButton" parent="CustomBaseButton">
+        <item name="android:backgroundTint">#323131</item>
+    </style>
+
+    <style name="CustomBaseButton.CustomOrangeButton" parent="CustomBaseButton">
+        <item name="backgroundTint">#ff9800</item>
+    </style>
+</resources>
